@@ -1,0 +1,40 @@
+- hosts: 10.47.34.129
+  tasks:
+    - name: install lamp stack
+      become: yes
+      become_user: root
+      yum:
+        name:
+          - httpd
+          - mariadb-server
+          - php
+          - php-mysql
+        state: present
+        update_cache: yes
+    - name: start apache service
+      become: yes
+      become_user: root
+      service:
+        name: httpd
+        state: started
+        enabled: yes
+    - name: start mysql service
+      become: yes
+      become_user: root
+      service:
+        name: mariadb
+        state: started
+        enabled: yes
+    - name: create target directory
+      become: yes
+      become_user: root
+      file:
+        path: /var/www/html
+        state: directory
+        mode: '0755'
+    - name: deploy index.html
+      become: yes
+      become_user: root
+      copy:
+        src: index.html
+        dest: /var/www/html/index.html
