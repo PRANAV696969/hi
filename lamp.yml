@@ -1,4 +1,5 @@
 - hosts: 10.47.34.129
+  remote_user: centos
   tasks:
     - name: install lamp stack
       become: yes
