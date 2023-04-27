@@ -7,7 +7,7 @@
         <h1>Registration Form</h1>
         <form method="post" action="register.php">
                 <label for="username">Username:</label>
-                <input type="text" id="username" name="usernameee"><br><br>
+                <input type="text" id="username" name="usernameeeee"><br><br>
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email"><br><br>
                 <label for="password">Password:</label>
