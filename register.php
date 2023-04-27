@@ -37,7 +37,7 @@
                         // Insert data into MySQL database
                         $sql = "INSERT INTO users (username, email, password) VALUES ('$username', '$email', '$password')";
                         if ($conn->query($sql) === TRUE) {
-                                echo "<p>User registered successfully!</p>";
+                                echo "<p>User registered successfully!!!!</p>";
                         } else {
                                 echo "Error: " . $sql . "<br>" . $conn->error;
                         }
