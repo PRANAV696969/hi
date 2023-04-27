@@ -4,7 +4,7 @@
         <title>Registrationnnn Form</title>
 </head>
 <body>
-        <h1>Registration Form</h1>
+        <h1>Registrationasdasdasdasdas Form</h1>
         <form method="post" action="register.php">
                 <label for="username">Usernameeqwqwe:</label>
                 <input type="text" id="username" name="username"><br><br>
