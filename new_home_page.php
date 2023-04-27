@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Home</title>
+    <title>Hoome</title>
     <style>
         body {
             background-color: #f2f2f2;
