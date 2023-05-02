@@ -40,7 +40,7 @@
 </style>
 </head>
 <body>
-    <h1>Please login/register to proceed further</h1>
+    <h1>Pleaseqwdlogin/register to proceed further</h1>
     <p>Here you can find all the information about our products and services.</p>
       <div>
     <button onclick="window.location.href='register.php'">Register</button>
